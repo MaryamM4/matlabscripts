@@ -7,9 +7,13 @@ close all;
 % files and the program files.
 
 
-raw_unordered_eeg = parse_eeg('Data_RandomClench');
+%raw_unordered_eeg = parse_eeg('Data_RandomClench');
 
-raw_ordered_eeg = parse_eeg('Data_Clench_RAW');
+%raw_ordered_eeg = parse_eeg('Data_Clench_RAW');
+
+raw_unordered_eeg = parse_eeg('C:\Users\marya\OneDrive\UWB\Misc\Stroke Rehab Project\Data\Data_RandomClench');
+
+raw_ordered_eeg = parse_eeg('C:\Users\marya\OneDrive\UWB\Misc\Stroke Rehab Project\Data\Data_Clench_RAW');
 
 %% Gabor transformation
 % Create a sliding window, do fft(fast fourier transformation) on every
